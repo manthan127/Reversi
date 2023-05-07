@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F4108B3F2A07D3C500DFEC55 /* ReversiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4108B3E2A07D3C500DFEC55 /* ReversiApp.swift */; };
-		F4108B412A07D3C500DFEC55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4108B402A07D3C500DFEC55 /* ContentView.swift */; };
 		F4108B432A07D3C600DFEC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4108B422A07D3C600DFEC55 /* Assets.xcassets */; };
 		F4108B462A07D3C600DFEC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4108B452A07D3C600DFEC55 /* Preview Assets.xcassets */; };
+		F4108B4E2A07D48D00DFEC55 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4108B4C2A07D48D00DFEC55 /* BoardView.swift */; };
+		F4108B4F2A07D48D00DFEC55 /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4108B4D2A07D48D00DFEC55 /* VM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4108B3B2A07D3C500DFEC55 /* Reversi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reversi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4108B3E2A07D3C500DFEC55 /* ReversiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversiApp.swift; sourceTree = "<group>"; };
-		F4108B402A07D3C500DFEC55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4108B422A07D3C600DFEC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4108B452A07D3C600DFEC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4108B4C2A07D48D00DFEC55 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		F4108B4D2A07D48D00DFEC55 /* VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				F4108B3E2A07D3C500DFEC55 /* ReversiApp.swift */,
-				F4108B402A07D3C500DFEC55 /* ContentView.swift */,
+				F4108B4C2A07D48D00DFEC55 /* BoardView.swift */,
+				F4108B4D2A07D48D00DFEC55 /* VM.swift */,
 				F4108B422A07D3C600DFEC55 /* Assets.xcassets */,
 				F4108B442A07D3C600DFEC55 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4108B412A07D3C500DFEC55 /* ContentView.swift in Sources */,
+				F4108B4E2A07D48D00DFEC55 /* BoardView.swift in Sources */,
+				F4108B4F2A07D48D00DFEC55 /* VM.swift in Sources */,
 				F4108B3F2A07D3C500DFEC55 /* ReversiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
